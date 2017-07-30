@@ -1,0 +1,12 @@
+ua\i\giggss\model\Worker.class
+ua\i\giggss\service\DishServiceImpl.class
+ua\i\giggss\controller\WorkerController.class
+ua\i\giggss\model\Dish.class
+ua\i\giggss\service\DishService.class
+ua\i\giggss\controller\DishController.class
+ua\i\giggss\dao\WorkerDao.class
+ua\i\giggss\dao\WorkerDaoImpl.class
+ua\i\giggss\service\WorkerServiceImpl.class
+ua\i\giggss\dao\DishDaoImpl.class
+ua\i\giggss\service\WorkerService.class
+ua\i\giggss\dao\DishDao.class
