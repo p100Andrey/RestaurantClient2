@@ -68,26 +68,24 @@
 
     <c:import url="/WEB-INF/pages/header.jsp"></c:import>
 
+    <br/>
+    <h1 style="color: white">Dish data</h1>
+
     <table class="tg">
 
-        <br/>
-        <h1 style="color: white">Dish data</h1>
-
-        <tr>
-            <th width="60">Name</th>
-            <th width="60">Category</th>
-            <th width="30">Cost</th>
-            <th width="30">Weight</th>
-            <th width="30">Ingradients</th>
-        </tr>
+            <th width="200px">Name</th>
+            <th width="200px">Category</th>
+            <th width="300px">Ingradients</th>
+            <th width="50px">Cost</th>
+            <th width="50px">Weight</th>
         <tr>
             <%--<td>${dish.dishId}</td>--%>
             <td>${dish.dishName}</td>
             <td>${dish.category}</td>
+            <td>${dish.ingredients}</td>
             <%--<td>${dish.cost/100}${dish.cost%100}</td>--%>
             <td>${dish.cost}</td>
             <td>${dish.weight}</td>
-            <td>${dish.ingredients}</td>
         </tr>
     </table>
     <br/>

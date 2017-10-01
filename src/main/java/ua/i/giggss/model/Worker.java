@@ -22,7 +22,7 @@ public class Worker {
     private Date birthday;
 
     @Column (name = "telephone")
-    private int telephone;
+    private String telephone;
 
     @Column (name = "position")
     private String position;
@@ -62,11 +62,11 @@ public class Worker {
         this.birthday = birthday;
     }
 
-    public int getTelephone() {
+    public String getTelephone() {
         return telephone;
     }
 
-    public void setTelephone(int telephone) {
+    public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
 

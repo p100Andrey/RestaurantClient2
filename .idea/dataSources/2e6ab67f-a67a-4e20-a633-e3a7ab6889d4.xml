@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Restaurant@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="Restaurant">
+      <ObjectId>16393</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <IntrospectionTimestamp>2017-08-28.22:23:38.113</IntrospectionTimestamp>
+      <IntrospectionStateNumber>626</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="5" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="6" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+    </schema>
+    <schema id="7" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+    </schema>
+    <schema id="8" parent="2" name="information_schema">
+      <ObjectId>12113</ObjectId>
+    </schema>
+    <sequence id="9" parent="3" name="books_id_seq">
+      <ObjectId>16424</ObjectId>
+      <StateNumber>562</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="10" parent="3" name="dish_dishid_seq">
+      <ObjectId>16450</ObjectId>
+      <StateNumber>616</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="11" parent="3" name="dishes_dishid_seq">
+      <ObjectId>16453</ObjectId>
+      <StateNumber>619</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="12" parent="3" name="ingredient_id_seq">
+      <ObjectId>16435</ObjectId>
+      <StateNumber>596</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="13" parent="3" name="stock_id_seq">
+      <ObjectId>16444</ObjectId>
+      <StateNumber>609</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="14" parent="3" name="worker_workerid_seq">
+      <ObjectId>16413</ObjectId>
+      <StateNumber>557</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="15" parent="3" name="book">
+      <ObjectId>16426</ObjectId>
+      <StateNumber>565</StateNumber>
+    </table>
+    <table id="16" parent="3" name="dish">
+      <ObjectId>16394</ObjectId>
+      <StateNumber>548</StateNumber>
+    </table>
+    <table id="17" parent="3" name="dishes">
+      <ObjectId>16455</ObjectId>
+      <StateNumber>621</StateNumber>
+    </table>
+    <table id="18" parent="3" name="ingredients">
+      <ObjectId>16437</ObjectId>
+      <StateNumber>598</StateNumber>
+    </table>
+    <table id="19" parent="3" name="stock">
+      <ObjectId>16446</ObjectId>
+      <StateNumber>609</StateNumber>
+    </table>
+    <table id="20" parent="3" name="worker">
+      <ObjectId>16415</ObjectId>
+      <StateNumber>557</StateNumber>
+    </table>
+    <column id="21" parent="15" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>562</StateNumber>
+      <DefaultExpression>nextval(&apos;books_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="22" parent="15" name="book_title">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>562</StateNumber>
+    </column>
+    <column id="23" parent="15" name="book_author">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>562</StateNumber>
+    </column>
+    <index id="24" parent="15" name="books_pkey">
+      <ObjectId>16433</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="25" parent="15" name="books_pkey">
+      <ObjectId>16434</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>books_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="26" parent="16" name="dishid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>617</StateNumber>
+      <DefaultExpression>nextval(&apos;dish_dishid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="27" parent="16" name="dishname">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>545</StateNumber>
+    </column>
+    <column id="28" parent="16" name="category">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>545</StateNumber>
+    </column>
+    <column id="29" parent="16" name="ingredients">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>545</StateNumber>
+    </column>
+    <column id="30" parent="16" name="cost">
+      <Position>5</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>545</StateNumber>
+    </column>
+    <column id="31" parent="16" name="weight">
+      <Position>6</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>545</StateNumber>
+    </column>
+    <index id="32" parent="16" name="dish_pkey">
+      <ObjectId>16400</ObjectId>
+      <ColNames>dishid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="33" parent="16" name="dish_pkey">
+      <ObjectId>16401</ObjectId>
+      <ColNames>dishid</ColNames>
+      <UnderlyingIndexName>dish_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="34" parent="17" name="dishid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>626</StateNumber>
+      <DefaultExpression>nextval(&apos;dishes_dishid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="35" parent="17" name="dishname">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>619</StateNumber>
+    </column>
+    <column id="36" parent="17" name="category">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>619</StateNumber>
+    </column>
+    <column id="37" parent="17" name="ingredients">
+      <Position>4</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>621</StateNumber>
+    </column>
+    <column id="38" parent="17" name="cost">
+      <Position>5</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>619</StateNumber>
+    </column>
+    <column id="39" parent="17" name="weight">
+      <Position>6</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>619</StateNumber>
+    </column>
+    <index id="40" parent="17" name="dishes_pkey">
+      <ObjectId>16474</ObjectId>
+      <ColNames>dishid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="41" parent="17" name="dishes_pkey">
+      <ObjectId>16475</ObjectId>
+      <ColNames>dishid</ColNames>
+      <UnderlyingIndexName>dishes_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="42" parent="18" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>596</StateNumber>
+      <DefaultExpression>nextval(&apos;ingredient_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="43" parent="18" name="ingredients">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>599</StateNumber>
+    </column>
+    <column id="44" parent="19" name="id">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609</StateNumber>
+      <DefaultExpression>nextval(&apos;stock_id_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="45" parent="19" name="amount">
+      <Position>2</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>609</StateNumber>
+    </column>
+    <column id="46" parent="20" name="workerid">
+      <Position>1</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+      <DefaultExpression>nextval(&apos;worker_workerid_seq&apos;::regclass)</DefaultExpression>
+    </column>
+    <column id="47" parent="20" name="lastname">
+      <Position>2</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+    </column>
+    <column id="48" parent="20" name="name">
+      <Position>3</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+    </column>
+    <column id="49" parent="20" name="birthday">
+      <Position>4</Position>
+      <DataType>date|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+    </column>
+    <column id="50" parent="20" name="telephone">
+      <Position>5</Position>
+      <DataType>integer|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+    </column>
+    <column id="51" parent="20" name="position">
+      <Position>6</Position>
+      <DataType>text|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+    </column>
+    <column id="52" parent="20" name="salary">
+      <Position>7</Position>
+      <DataType>double precision|0</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>557</StateNumber>
+    </column>
+    <index id="53" parent="20" name="worker_pkey">
+      <ObjectId>16422</ObjectId>
+      <ColNames>workerid</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="20" name="worker_pkey">
+      <ObjectId>16423</ObjectId>
+      <ColNames>workerid</ColNames>
+      <UnderlyingIndexName>worker_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

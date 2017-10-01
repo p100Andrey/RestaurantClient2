@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Repository;
 import ua.i.giggss.model.Dish;
 
+import java.util.Collections;
 import java.util.List;
 
 @Repository
@@ -58,7 +59,7 @@ public class DishDaoImpl implements DishDao {
     public List<Dish> listDishes() {
         Session session = this.sessionFactory.getCurrentSession();
         List<Dish> dishList = session.createQuery("from Dish").list();
-
+        Collections.sort(dishList, Dish.COMPARE_BY_ID);
         for(Dish dish: dishList){
             logger.info("Dish list: " + dish);
         }

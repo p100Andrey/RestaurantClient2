@@ -74,10 +74,13 @@
                 <th width="50">Photo</th>
             </tr>
             <c:forEach items="${listWorkers}" var="worker">
-                <tr>
-                    <td style="padding: 30px">${worker.name}</td>
-                    <td align="center"><img src="${"/photo/".concat(worker.lastName).concat(worker.name).concat(".jpg")}"></td>
-                </tr>
+                <c:if test="${worker.position eq 'waiter'}">
+                    <tr>
+                        <td style="padding: 30px">${worker.name}</td>
+                        <td align="center"><img
+                                src="${"/photo/".concat(worker.lastName).concat(worker.name).concat(".jpg")}"></td>
+                    </tr>
+                </c:if>
             </c:forEach>
         </c:if>
     </table>

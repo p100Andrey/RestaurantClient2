@@ -8,5 +8,6 @@ ua\i\giggss\dao\WorkerDao.class
 ua\i\giggss\dao\WorkerDaoImpl.class
 ua\i\giggss\service\WorkerServiceImpl.class
 ua\i\giggss\dao\DishDaoImpl.class
+ua\i\giggss\model\Dish$1.class
 ua\i\giggss\service\WorkerService.class
 ua\i\giggss\dao\DishDao.class

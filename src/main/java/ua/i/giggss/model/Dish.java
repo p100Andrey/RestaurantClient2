@@ -1,6 +1,7 @@
 package ua.i.giggss.model;
 
 import javax.persistence.*;
+import java.util.Comparator;
 
 @Entity
 @Table(name = "dish")
@@ -85,4 +86,11 @@ public class Dish {
                 ", weight=" + weight +
                 '}';
     }
+
+    public static final Comparator<Dish> COMPARE_BY_ID = new Comparator<Dish>() {
+        @Override
+        public int compare(Dish dish1, Dish dish2) {
+            return dish1.getDishId() - dish2.getDishId();
+        }
+    };
 }
