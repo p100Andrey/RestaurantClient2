@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec926399-0b8c-4849-a015-011eaccf35d8" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources/4324da6e-4674-4645-b2df-e7b5db2acdaa.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4324da6e-4674-4645-b2df-e7b5db2acdaa/_metadata_/metadata" afterPath="$PROJECT_DIR$/.idea/dataSources/4324da6e-4674-4645-b2df-e7b5db2acdaa/_metadata_/metadata" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources/4324da6e-4674-4645-b2df-e7b5db2acdaa/_metadata_/metadata.values.at" afterPath="$PROJECT_DIR$/.idea/dataSources/4324da6e-4674-4645-b2df-e7b5db2acdaa/_metadata_/metadata.values.at" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/classes/ua/i/giggss/dao/DishDaoImpl.class" afterPath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/classes/ua/i/giggss/dao/DishDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/classes/ua/i/giggss/model/Dish.class" afterPath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/classes/ua/i/giggss/model/Dish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/classes/ua/i/giggss/model/Worker.class" afterPath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/classes/ua/i/giggss/model/Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/i/giggss/dao/DishDaoImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/i/giggss/dao/DishDaoImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/i/giggss/model/Dish.class" afterPath="$PROJECT_DIR$/target/classes/ua/i/giggss/model/Dish.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/i/giggss/model/Worker.class" afterPath="$PROJECT_DIR$/target/classes/ua/i/giggss/model/Worker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scrudop.war" afterPath="$PROJECT_DIR$/target/scrudop.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restaurantdb.dump" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/RestaurantClient2.iml" afterPath="$PROJECT_DIR$/RestaurantClient2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/i/giggss/dao/DishDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/i/giggss/dao/DishDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/i/giggss/model/Dish.java" afterPath="$PROJECT_DIR$/src/main/java/ua/i/giggss/model/Dish.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/i/giggss/model/Worker.java" afterPath="$PROJECT_DIR$/src/main/java/ua/i/giggss/model/Worker.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dishdata.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dishdata.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dishes.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dishes.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/workers.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/workers.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/pages/dishdata.jsp" afterPath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/pages/dishdata.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/pages/dishes.jsp" afterPath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/pages/dishes.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/pages/workers.jsp" afterPath="$PROJECT_DIR$/target/SCRUDoperations/WEB-INF/pages/workers.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="RestaurantClient2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -331,7 +305,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -603,6 +576,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -617,16 +591,16 @@
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\LEONA\IdeaProjects\RestaurantClient2\src\main\webapp\photo" />
+      <recent name="C:\Users\LEONA\IdeaProjects\RestaurantClient2\src\main\webapp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Андрей\GOIT\RestaurantClient2" />
       <recent name="D:\Андрей\GOIT\RestaurantClient2\src\main\webapp\WEB-INF" />
       <recent name="C:\Users\LEONA\IdeaProjects\RestaurantClient2\src\main\webapp\photo" />
       <recent name="C:\Users\LEONA\IdeaProjects\RestaurantClient2\src\main\webapp" />
       <recent name="C:\Users\LEONA\IdeaProjects\RestaurantClient2\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\LEONA\IdeaProjects\RestaurantClient2\src\main\webapp\WEB-INF\pages" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\LEONA\IdeaProjects\RestaurantClient2\src\main\webapp\photo" />
-      <recent name="C:\Users\LEONA\IdeaProjects\RestaurantClient2\src\main\webapp" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
@@ -1197,12 +1171,13 @@
       <workItem from="1504026639341" duration="4753000" />
       <workItem from="1504122719201" duration="160000" />
       <workItem from="1504202986165" duration="1018000" />
-      <workItem from="1506887785399" duration="377000" />
+      <workItem from="1506887785399" duration="662000" />
+      <workItem from="1506967901094" duration="1017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147475000" />
+    <option name="totallyTimeSpent" value="148777000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
@@ -1222,16 +1197,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4117647" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35067114" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2159265" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21898928" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1240,7 +1216,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1295,6 +1270,9 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1531,14 +1509,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/5c50f01a/2e6ab67f-a67a-4e20-a633-e3a7ab6889d4/Restaurant.public.dish">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1547,7 +1525,7 @@
         <state relative-caret-position="374">
           <caret line="61" column="55" lean-forward="true" selection-start-line="61" selection-start-column="55" selection-end-line="61" selection-end-column="55" />
           <folding>
-            <element signature="e#1700#1730#0" expanded="true" />
+            <element signature="e#1700#1730#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1607,14 +1585,14 @@
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/5c50f01a/2e6ab67f-a67a-4e20-a633-e3a7ab6889d4/Restaurant.public.worker">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
